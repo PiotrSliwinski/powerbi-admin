@@ -1,8 +1,8 @@
 import os
 import logging
-from auth import PowerBIAuth
-from client import PowerBIClient
-from gateway import GatewayAdmin
+from admin.auth import PowerBIAuth
+from admin.client import PowerBIClient
+from admin.gateway import GatewayAdmin
 from azure.identity import CredentialUnavailableError
 
 # --- Configuration ---

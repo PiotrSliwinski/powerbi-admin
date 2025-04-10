@@ -1,6 +1,6 @@
 import requests
 import logging
-from auth import PowerBIAuth
+from .auth import PowerBIAuth
 
 logger = logging.getLogger(__name__)
 

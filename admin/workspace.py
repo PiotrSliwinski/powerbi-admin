@@ -1,4 +1,4 @@
-from client import PowerBIClient
+from .client import PowerBIClient
 import logging
 
 logger = logging.getLogger(__name__)
